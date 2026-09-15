@@ -1,0 +1,8 @@
+tsp_cplex
+tsp_tabu
+*.o
+report/*.aux
+report/*.log
+report/*.out
+report/*.toc
+results/tours/

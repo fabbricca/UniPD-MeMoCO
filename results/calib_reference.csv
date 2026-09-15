@@ -1,0 +1,9 @@
+instance,n,time_limit,status,optimal,has_sol,obj,bound,gap,nodes,cols,rows,build_s,solve_s,tour_ok
+calib_n100_1,100,60,"time limit exceeded",0,1,1332.76,726.187,0.455127,49,19701,10100,0.0158303,60.0148,1
+calib_n100_2,100,60,"time limit exceeded",0,1,1127.48,738.698,0.344826,291,19701,10100,0.0125102,60.0068,1
+calib_n30_1,30,60,"integer optimal solution",1,1,426.328,426.328,0,0,1711,930,0.000702334,0.641842,1
+calib_n30_2,30,60,"integer optimal solution",1,1,447.548,447.548,0,0,1711,930,0.00138466,0.624125,1
+calib_n50_1,50,60,"integer optimal solution",1,1,550.734,550.734,0,15,4851,2550,0.00479529,4.25531,1
+calib_n50_2,50,60,"integer optimal, tolerance",1,1,590.914,590.914,8.41636e-07,1143,4851,2550,0.0040334,14.3236,1
+calib_n70_1,70,60,"time limit exceeded",0,1,682.903,623.605,0.0868319,412,9591,4970,0.00720462,60.0013,1
+calib_n70_2,70,60,"integer optimal solution",1,1,656.37,656.37,0,801,9591,4970,0.00813303,34.8092,1

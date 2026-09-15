@@ -1,0 +1,17 @@
+\begin{tabular}{llrrrrr}
+\toprule
+config. & description & mean gap & std & worst & it. to best & time (s) \\
+\midrule
+kick0 & no kicks (plain tabu search) & 3.771 & 2.632 & 10.88 & 19 & 0.00 \\
+kick1 & 1 double bridge & 0.232 & 0.463 & 1.92 & 8710 & 0.41 \\
+kick3 & 3 double bridges & 0.045 & 0.165 & 0.82 & 7003 & 0.42 \\
+kick6 & 6 double bridges (default) & 0.007 & 0.040 & 0.25 & 9194 & 0.42 \\
+wait0.5 & kick after $0.5n$ idle it. & 0.000 & 0.000 & 0.00 & 5408 & 0.41 \\
+wait2 & kick after $2n$ idle it. & 0.070 & 0.175 & 0.66 & 10799 & 0.43 \\
+wait5 & kick after $5n$ idle it. & 0.142 & 0.267 & 0.95 & 10810 & 0.27 \\
+ten0.05 & tenure $0.05n$ & 0.039 & 0.184 & 1.07 & 4129 & 0.22 \\
+ten0.25 & tenure $0.25n$ & 0.012 & 0.075 & 0.47 & 5833 & 0.25 \\
+ten0.5 & tenure $0.5n$ & 0.048 & 0.154 & 0.66 & 7328 & 0.31 \\
+random & random initial tour & 0.043 & 0.164 & 0.82 & 4414 & 0.43 \\
+\bottomrule
+\end{tabular}
