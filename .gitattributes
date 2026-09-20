@@ -1,0 +1,7 @@
+# The report is documentation, not the project. Without this, linguist counts the
+# LaTeX sources (72 kB) against the C++ (31 kB) and labels a C++11/CPLEX project "TeX".
+report/**      linguist-documentation
+results/**     linguist-documentation
+instances/**   linguist-data
+*.tex          linguist-documentation
+*.bib          linguist-documentation
